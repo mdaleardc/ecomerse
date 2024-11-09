@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+label, input, legend {
+  width: 100%;
+  text-align: left;
+}
+ label {
+   color: white;
+ }
+
+input {
+  outline: none;
+  background: #ffec;
+}
