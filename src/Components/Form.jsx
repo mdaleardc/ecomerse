@@ -67,8 +67,8 @@ const Form = () => {
   }
   
   return (
-    <div>
-    <form className="form-section p-[1rem]  bg-[#fff1] border-[2px] rounded my-[1rem] w-[95%] md:w-[50%]" onSubmit={handleSubmit}>
+    <div className='bg-[#007E8B]'>
+    <form className="form-section p-[1rem] border-[2px] rounded my-[1rem] w-[95%] md:w-[50%]" onSubmit={handleSubmit}>
     <h1 className="text-1xl text-center text-[#345]">{flag ? <p>{userData.userName} you have registered successfuly!</p> : ""}</h1>
       <fieldset className="my-[0] mx-[auto] block">
         <div className="text-3xl font-bold text-[#4ef] text-center my-[1rem]">
